@@ -42,6 +42,7 @@ sudo apt install firefox -y > /dev/null 2>&1
 sudo apt-get install -y xrdp > /dev/null 2>&1
 sudo apt-get install -y xfce4-terminal
 sudo service xrdp start
+sudo apt install dbus-x11
 # Check if ngrok is already present
 if ! command -v ngrok &> /dev/null; then
     prompt_confirmation "Ngrok is not installed. Do you want to download it?"
