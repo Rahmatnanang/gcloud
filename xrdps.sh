@@ -37,7 +37,11 @@ apt-get update
 apt install screen -y
 apt install sudo -y
 apt-get install -y xrdp
-
+apt-get install -y xfce4 xfce4-goodies > /dev/null 2>&1
+sudo apt install firefox -y > /dev/null 2>&1
+sudo apt-get install -y xrdp > /dev/null 2>&1
+sudo apt-get install -y xfce4-terminal
+sudo service xrdp start
 # Check if ngrok is already present
 if ! command -v ngrok &> /dev/null; then
     prompt_confirmation "Ngrok is not installed. Do you want to download it?"
