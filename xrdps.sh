@@ -41,6 +41,7 @@ apt-get install -y xfce4 xfce4-goodies > /dev/null 2>&1
 sudo apt install firefox -y > /dev/null 2>&1
 sudo apt-get install -y xrdp > /dev/null 2>&1
 sudo apt-get install -y xfce4-terminal
+sudo apt install firefox -y > /dev/null 2>&1
 sudo service xrdp start
 sudo apt install dbus-x11
 # Check if ngrok is already present
